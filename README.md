@@ -11,8 +11,10 @@ git clone https://github.com/Ravichandra-D/seo-content-detector
 cd seo-content-detector
 pip install -r requirements.txt
 jupyter notebook notebooks/seo_pipeline.ipynb
+bash'''
 
-Key Decisions
+
+## Key Decisions
 
 Choice of Libraries: requests and BeautifulSoup for robust web scraping, textstat for readability metrics, scikit-learn for TF-IDF and similarity calculations.
 
